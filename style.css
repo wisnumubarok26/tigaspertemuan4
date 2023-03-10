@@ -1,0 +1,84 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.header ul li{
+    margin: 0 auto;
+}
+.header ul li a{
+    color: black;
+    font-size: 20px;
+}
+.header ul :hover{
+    font-size: 25px;
+    color: blue;
+}
+.bungkus{
+    margin: 0 auto;
+    text-align: center;
+}
+.bungkus h3{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border: 3px solid green;
+}
+.film-1{
+    display: flex;
+    align-items: center;
+}
+.film-2{
+    display: flex;
+    align-items: center;
+    
+    padding: 20px 0;
+}
+.film-3{
+    display: flex;
+    align-items: center;
+    
+    padding: 20px 0;
+}
+.film-4{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.desc{
+    padding-left: 50px;
+    
+}
+#container{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.desc p{
+    width: 500px;
+    font-size: 20px;
+}
+table{
+    font-size: 30px;
+    color: purple;
+}
+i{
+    padding: 10px;
+}
+#container h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
